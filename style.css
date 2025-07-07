@@ -1,0 +1,72 @@
+*{
+    margin : 0;
+    padding : 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(-45deg,rgb(0, 9, 30),rgb(0, 0, 86),rgba(0, 30, 100, 0.854));
+    background-repeat: no-repeat;
+    background-size:auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card{
+    height: 300px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.151);
+    padding: 5px;
+    margin: 30px;
+    box-shadow: -5px 5px 10px;
+    
+}
+
+.subcard{
+    border:2px solid rgb(67, 68, 79);
+    height: 30%;
+    border-radius: 10px;
+    background-image: url(i2.jpg);
+    background-size: cover;
+    box-shadow: 0 0 10px rgb(1, 6, 66);
+}
+
+.card:hover{
+    translate:10px -20px;
+    transition: 0.5s;
+
+}
+
+.card:hover .subcard{
+    translate:70px -40px;
+    scale: 150%;
+    transition: 0.5s;
+    border:2px solid rgb(104, 116, 255);
+
+}
+.card:hover button{
+    transition: 0.5s;
+    border:2px solid rgb(104, 116, 255);
+}
+p{
+    color: aliceblue;
+    margin: 20px 10px;
+}
+
+button{
+    font-weight: bold;
+    padding: 10px;
+    margin: 20px 50px;
+    border:2px solid rgb(67, 68, 79);
+    background-color: rgba(240, 248, 255, 0.448);
+    color: rgb(223, 240, 255);
+    border-radius:10px;
+}
+
+button:hover{
+    translate:10px -10px;
+    transition: 0.5s;
+}
